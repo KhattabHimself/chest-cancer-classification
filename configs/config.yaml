@@ -1,0 +1,12 @@
+data:
+  dir: "data"
+
+reports:
+  metrics: "reports/metrics.json"
+  figure_dir: "reports/figures"
+  confusion_matrix: "reports/figures/confusion_matrix.png"
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "chest_cancer_classification"
+  registered_model_name: "chest-cancer-classifier"

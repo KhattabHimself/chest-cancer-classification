@@ -1,0 +1,16 @@
+default:
+  backbone: "mobilenetv2"
+  image_size: [224, 224]
+  num_classes: 4
+  batch_size: 32
+  learning_rate: 0.001
+  dropout: 0.2
+  epochs: 20
+
+optuna:
+  n_trials: 15
+  backbones: ["mobilenetv2", "efficientnetb0"]
+  learning_rate_min: 0.0001
+  learning_rate_max: 0.01
+  dropout_min: 0.1
+  dropout_max: 0.5

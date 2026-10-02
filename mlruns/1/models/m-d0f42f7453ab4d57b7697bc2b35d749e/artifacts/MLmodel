@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/muham/Desktop/MLOps/Capstone Projects/Chest Cancer
+  Classification/mlruns/1/models/m-d0f42f7453ab4d57b7697bc2b35d749e/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.21
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.15.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.16.1
+model_id: m-d0f42f7453ab4d57b7697bc2b35d749e
+model_size_bytes: 12442155
+model_uuid: m-d0f42f7453ab4d57b7697bc2b35d749e
+prompts: null
+run_id: 9f3ae4d36590458b83446273948b8784
+utc_time_created: '2026-09-27 23:08:42.074292'
