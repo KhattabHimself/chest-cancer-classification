@@ -1,5 +1,7 @@
 # Chest Cancer Classification — End-to-End MLOps Pipeline
 
+[![CI/CD](https://github.com/KhattabHimself/chest-cancer-classification/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/KhattabHimself/chest-cancer-classification/actions/workflows/ci-cd.yml)
+
 Classifies chest CT scans into four classes (adenocarcinoma, large cell carcinoma, squamous cell carcinoma, normal) with a transfer-learning CNN, and wraps it in a full MLOps workflow: versioned data, hyperparameter search, experiment tracking, a model registry, a REST API, a web UI, and Docker deployment.
 
 > The focus of this project is the **pipeline**, not state-of-the-art accuracy. Every stage is reproducible, tracked, and deployable.
@@ -83,7 +85,7 @@ The confusion matrix is saved to `reports/figures/confusion_matrix.png` and logg
 Python 3.10 is required (TensorFlow 2.15 supports 3.9–3.11).
 
 ```bash
-git clone https://github.com/<your-username>/chest-cancer-classification.git
+git clone https://github.com/KhattabHimself/chest-cancer-classification.git
 cd chest-cancer-classification
 
 conda create -n chest_ct python=3.10 -y

@@ -1,0 +1,25 @@
+# runs the images published by CI/CD instead of building them locally:
+#   docker compose -f docker-compose.prod.yaml up
+# image names must be lowercase, even though the GitHub username isn't
+services:
+  api:
+    image: ghcr.io/khattabhimself/chest-cancer-classification-api:latest
+    ports:
+      - "8000:8000"
+    healthcheck:
+      # slim image has no curl, so use python to hit /health
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  ui:
+    image: ghcr.io/khattabhimself/chest-cancer-classification-ui:latest
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
