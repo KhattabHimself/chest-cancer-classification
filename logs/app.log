@@ -1,0 +1,148 @@
+[2026-10-03 09:46:05,230] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:46:05,331] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:46:08,054] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 09:46:44,769] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:46:45,102] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:46:49,218] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 09:46:50,017] INFO - logging - Running on http://127.0.0.1:8000 (CTRL + C to quit)
+[2026-10-03 09:47:15,747] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:47:15,799] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:47:19,563] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 09:47:28,335] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:47:28,383] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:47:30,888] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 09:47:42,212] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:47:42,296] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:47:44,914] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 09:47:52,754] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 09:47:52,804] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 09:47:55,295] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 10:01:34,113] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 10:01:34,173] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 10:01:36,807] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 10:01:46,239] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 10:01:46,291] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 10:01:48,769] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:18:08,272] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:18:08,323] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:18:11,144] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:18:19,629] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:18:19,680] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:18:22,130] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:18:29,715] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:18:29,764] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:18:32,284] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:18:40,283] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:18:40,337] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:18:43,125] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:18:45,191] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:18:45,260] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:18:47,840] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:20:13,614] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:20:13,615] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:20:13,671] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:20:13,672] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:20:16,521] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:20:16,528] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:21:26,504] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:21:26,564] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:21:29,170] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:35:20,348] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:35:20,451] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:35:24,852] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:35:29,544] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2026-10-03 18:35:30,018] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:35:30,070] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:35:34,062] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:35:35,905] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:35:36,005] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:35:39,510] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:35:48,237] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:35:48,358] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:35:49,521] WARNING - optimizer - Skipping variable loading for optimizer 'Adam', because it has 5 variables whereas the saved optimizer has 1 variables. 
+[2026-10-03 18:35:49,828] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:35:49,912] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:35:53,330] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:39:08,605] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:39:08,674] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:39:11,515] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:39:12,238] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2026-10-03 18:39:12,557] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:39:12,599] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:39:15,351] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+[2026-10-03 18:39:20,970] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\saving\legacy\saved_model\load.py:107: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+[2026-10-03 18:39:21,033] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\engine\functional.py:156: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+[2026-10-03 18:39:24,497] WARNING - module_wrapper - From C:\Users\muham\anaconda3\envs\chest_ct\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+

@@ -3,7 +3,7 @@ data:
 
 reports:
   metrics: "reports/metrics.json"
-  figure_dir: "reports/figures"
+  figures_dir: "reports/figures"
   confusion_matrix: "reports/figures/confusion_matrix.png"
 
 mlflow:

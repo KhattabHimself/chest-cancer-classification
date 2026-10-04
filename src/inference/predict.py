@@ -1,52 +1,70 @@
 import ast
+import io
+import json
+import os
 import numpy as np
 import mlflow
 from mlflow.tracking import MlflowClient
 from tensorflow import keras
+
 from src.features.preprocessing import PREPROCESS_FNS
 from src.utils.common import setup_mlflow
 
-# 1. Initialize MLflow dynamically from your config file
-config = setup_mlflow("configs/config.yaml")
-MODEL_NAME = config["mlflow"]["registered_model_name"]
+class Predictor:
+    def __init__(self, config_path="configs/config.yaml", model_version="1"):
+        # in Docker MODEL_DIR points at the exported model; locally fall back to MLflow
+        model_dir = os.getenv("MODEL_DIR")
+        if model_dir:
+            self._load_from_dir(model_dir)
+        else:
+            self._load_from_mlflow(config_path, model_version)
+        self.preprocess = PREPROCESS_FNS[self.backbone]
 
-# Image path is typically passed via command line (argparse), 
-# but defined here as a variable for testing.
-IMAGE_PATH = "data/test/normal/6.png"
+    def _load_from_dir(self, model_dir):
+        with open(f"{model_dir}/meta.json") as f:
+            meta = json.load(f)
+        self.model = keras.models.load_model(f"{model_dir}/model.h5")
+        self.backbone = meta["backbone"]
+        self.image_size = tuple(meta["image_size"])
+        self.idx_to_class = dict(enumerate(meta["class_names"]))
 
-def run_prediction(model_version, img_path):
-    # 1. Use the client to find the original run_id for this registered model
-    client = MlflowClient()
-    version_details = client.get_model_version(name=MODEL_NAME, version=model_version)
-    run_id = version_details.run_id
-    
-    # 2. Load the model directly from the Model Registry
-    model_uri = f"models:/{MODEL_NAME}/{model_version}"
-    model = mlflow.tensorflow.load_model(model_uri)
-    
-    # 3. Load metadata from the original run
-    params = mlflow.get_run(run_id).data.params
-    backbone = params["backbone"]
-    image_size = tuple(ast.literal_eval(params["image_size"]))
-    
-    class_indices = mlflow.artifacts.load_dict(f"runs:/{run_id}/class_indices.json")
-    idx_to_class = {v: k for k, v in class_indices.items()}
-    preprocess = PREPROCESS_FNS[backbone]
+    def _load_from_mlflow(self, config_path, model_version):
+        config = setup_mlflow(config_path)
+        self.model_name = config["mlflow"]["registered_model_name"]
+        self.model_version = model_version
 
-    # 4. Load and preprocess the image
-    img = keras.utils.load_img(img_path, target_size=image_size)
-    x = preprocess(np.expand_dims(keras.utils.img_to_array(img), axis=0))
+        client = MlflowClient()
+        version_details = client.get_model_version(name=self.model_name, version=self.model_version)
+        run_id = version_details.run_id
 
-    # 5. Predict
-    probs = model.predict(x, verbose=0)[0]
-    pred_idx = int(np.argmax(probs))
-    
-    # 6. Output results
-    print(f"Prediction: {idx_to_class[pred_idx]} ({probs[pred_idx]:.2%})")
-    print("\nClass Breakdown:")
-    for i, p in enumerate(probs):
-        print(f"  {idx_to_class[i]}: {p:.2%}")
+        model_uri = f"models:/{self.model_name}/{self.model_version}"
+        self.model = mlflow.tensorflow.load_model(model_uri)
+
+        params = mlflow.get_run(run_id).data.params
+        self.backbone = params["backbone"]
+        self.image_size = tuple(ast.literal_eval(params["image_size"]))
+
+        class_indices = mlflow.artifacts.load_dict(f"runs:/{run_id}/class_indices.json")
+        self.idx_to_class = {v: k for k, v in class_indices.items()}
+
+    def predict(self, image_bytes: bytes):
+        # Load directly from memory using io.BytesIO
+        img = keras.utils.load_img(io.BytesIO(image_bytes), target_size=self.image_size)
+        x = self.preprocess(np.expand_dims(keras.utils.img_to_array(img), axis=0))
+
+        probs = self.model.predict(x, verbose=0)[0]
+        pred_idx = int(np.argmax(probs))
+
+        breakdown = {self.idx_to_class[i]: float(p) for i, p in enumerate(probs)}
+
+        return {
+            "prediction": self.idx_to_class[pred_idx],
+            "confidence": float(probs[pred_idx]),
+            "class_breakdown": breakdown
+        }
 
 if __name__ == "__main__":
-    # Test version 1 of your registered model
-    run_prediction(model_version="1", img_path=IMAGE_PATH)
+    # Local testing logic for Step 7
+    predictor = Predictor()
+    with open("data/test/normal/6.png", "rb") as f:
+        print(predictor.predict(f.read()))

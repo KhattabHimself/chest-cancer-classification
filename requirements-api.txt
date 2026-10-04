@@ -1,0 +1,9 @@
+tensorflow-cpu==2.15.0
+numpy<2.0.0
+protobuf<5.0.0
+mlflow==3.16.1
+fastapi
+uvicorn
+python-multipart
+pyyaml
+pillow

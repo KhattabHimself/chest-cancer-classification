@@ -1,9 +1,24 @@
+# full development environment (training, tuning, evaluation, serving, tests)
+# the Docker images use the slimmer requirements-api.txt / requirements-ui.txt
 tensorflow==2.15.0
 keras<2.16
 numpy<2.0.0
 protobuf<5.0.0
 ml-dtypes~=0.2.0
+mlflow==3.16.1
+optuna
 evidently
 databricks-sdk
-mlflow
-Optuna
+dvc
+pyyaml
+pillow
+scikit-learn
+matplotlib
+seaborn
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+pytest
+httpx
