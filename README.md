@@ -203,7 +203,6 @@ pytest
 - **Bake preprocessing into the model graph**, so the saved model takes raw pixels and train/serve skew becomes impossible.
 - **Add a DVC pipeline** (`dvc.yaml`) chaining tuning → training → evaluation → export, so `dvc repro` reruns only what changed.
 - **Use a model alias** (e.g. `@champion`) instead of a hardcoded version number.
-- **Add CI/CD** with GitHub Actions to run tests and build and push images.
 - **Add monitoring:** log predictions and track data drift with Evidently.
 
 ## Disclaimer
