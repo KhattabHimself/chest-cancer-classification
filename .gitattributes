@@ -1,0 +1,11 @@
+mlflow.db binary
+*.db binary
+logs/** linguist-vendored
+mlruns/** linguist-vendored
+models/** linguist-vendored
+data.dvc linguist-vendored
+
+# Ensure configuration and Docker files are correctly classified
+params.yaml linguist-detectable=true
+docker-compose.yaml linguist-detectable=true
+docker-compose.prod.yaml linguist-detectable=true
